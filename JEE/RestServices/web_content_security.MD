@@ -1,1 +1,0 @@
-http://docs.jboss.org/jbossas/docs/Server_Configuration_Guide/4/html/J2EE_Declarative_Security_Overview-Web_Content_Security_Constraints.html

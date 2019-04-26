@@ -10,5 +10,5 @@
    - [Rest services](https://github.com/sIvanovKonstantyn/articles/tree/master/JEE/RestServices "Rest services")
     + [Implementation](https://github.com/sIvanovKonstantyn/articles/blob/master/JEE/RestServices/jaxrs_implementation.MD "Implementation")
     + [Filters](https://github.com/sIvanovKonstantyn/articles/blob/master/JEE/RestServices/res_filters.MD "Filters")
-    + [Security with interceptor](https://github.com/sIvanovKonstantyn/articles/blob/master/JEE/RestServices/rest_security_with_intercwptor.MD "Security with interceptor")
-    + [Security with web.xml](https://github.com/sIvanovKonstantyn/articles/blob/master/JEE/RestServices/web_content_security.MD "Security with web.xml")
+    + [Http Security](https://github.com/sIvanovKonstantyn/articles/blob/master/JEE/RestServices/rest_http_security.MD "Http Security")
+    
