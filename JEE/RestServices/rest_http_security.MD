@@ -14,8 +14,8 @@
 
 
 ## Links
-[about security constraints in web xml](https://docs.oracle.com/cd/E19798-01/821-1841/bncbk/index.html)
-[annotations](https://www.oracle.com/technetwork/articles/javaee/security-annotation-142276.html)
+* [about security constraints in web xml](https://docs.oracle.com/cd/E19798-01/821-1841/bncbk/index.html)
+* [annotations](https://www.oracle.com/technetwork/articles/javaee/security-annotation-142276.html)
 
 
 
