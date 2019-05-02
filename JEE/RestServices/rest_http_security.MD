@@ -1,5 +1,8 @@
 #Http security for JEE Web application
 
+
+![scheme](https://github.com/sIvanovKonstantyn/articles/blob/master/JEE/RestServices/JEE_Security.jpg)
+
 ## bullet points:
 * define security roles and security constraints in web.xml
 * use @RolesAllowed (or another annotation from javax.annotation.security pachage - it depends on what are you looking for)
