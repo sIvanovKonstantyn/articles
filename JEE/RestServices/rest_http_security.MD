@@ -27,3 +27,21 @@
 |send any user           | no metter                 | auth-constrain - *   | role is requared       | yes, user principal == null | 403    |
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Links
+https://developer.ibm.com/tutorials/j-javaee8-security-api-4/
+
+
+
