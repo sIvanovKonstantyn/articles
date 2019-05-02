@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="WebApp_ID" version="3.0"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+    <display-name>App</display-name>
+
+    <!--Security-->
+    <security-role id=" Role1">
+        <role-name> Role1Name</role-name>
+    </security-role>
+
+    <security-role id=" Role2">
+        <role-name> Role2Name </role-name>
+    </security-role>
+
+    <security-role id=" Role3">
+        <role-name> Role3Name </role-name>
+    </security-role>
+
+    <security-constraint id=" RS_SecurityConstraint">
+
+        <web-resource-collection id=" WebResourceCollection">
+            <web-resource-name>AppRSServices</web-resource-name>
+            <description>protection area for App users only</description>
+            <url-pattern>/*</url-pattern>
+            <!--<http-method>POST</http-method>-->
+        </web-resource-collection>
+
+        <auth-constraint id=" AuthConstraint">
+            <role-name>*</role-name>
+
+            <!--<role-name>Role1Name</role-name>-->
+
+            <!--<role-name>Role2Name</role-name>-->
+        </auth-constraint>
+
+    </security-constraint>
+
+    <!--RS general-->
+    <servlet>
+        <description>App JAX-RS Service</description>
+        <servlet-name>App JAX-RS Servlet</servlet-name>
+        <servlet-class>com.ibm.websphere.jaxrs.server.IBMRestServlet</servlet-class>
+        <init-param>
+            <param-name>javax.ws.rs.Application</param-name>
+            <param-value>somePackages.App</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>App JAX-RS Servlet</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
+ 
