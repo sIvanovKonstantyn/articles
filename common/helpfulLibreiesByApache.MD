@@ -30,7 +30,7 @@ public class ArrayConverterExample {
 
 
 
-###BagUtils
+### BagUtils
 ```
 package com.demos.apachecommonexamples;
 
@@ -59,7 +59,7 @@ public class BagUtilsExample {
 
 
  
-###BeanUtils
+### BeanUtils
 ```
 package com.demos.apachecommonexamples;
 
@@ -96,7 +96,7 @@ public class BeanUtilsExample {
 }
 ```
 
-###CollectionUtils
+### CollectionUtils
 ```
 package com.demos.apachecommonexamples;
 
@@ -165,7 +165,7 @@ public class CollectionUtilsExample {
 }
 ```
 
-###CommonsCodec
+### CommonsCodec
 ```
 package com.demos.apachecommonexamples;
 
@@ -192,7 +192,7 @@ public class CommonsCodecExample {
 ```
 
 
-###DateConverter
+### DateConverter
 
 ```
 package com.demos.apachecommonexamples;
